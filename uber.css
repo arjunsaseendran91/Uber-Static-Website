@@ -1,0 +1,821 @@
+body{
+   margin: 0;
+}
+.header{
+    width: 100%;
+    height: 890px;
+    background : black;
+}
+.uber{
+height: 48px;
+padding-left: 63.5px;
+padding-top: 5px;
+cursor: pointer;
+}
+.ride{
+   color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 51px;
+  position: absolute;
+  top: 14.5px;
+left: 163.5px;
+cursor: pointer;
+}
+.ride:hover{
+    background: rgb(49, 48, 48);
+}
+.drive{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 55px;
+  position: absolute;
+  top: 14.5px;
+left: 221px;
+cursor: pointer;
+}
+.drive:hover{
+    background: rgb(49, 48, 48);
+}
+.business{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 85px;
+  position: absolute;
+  top: 14.5px;
+left: 280px;
+cursor: pointer;
+}
+.business:hover{
+    background: rgb(49, 48, 48);
+}
+.uber-eates{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 90px;
+  position: absolute;
+  top: 14.5px;
+left: 367px;
+cursor: pointer;
+}
+.uber-eates:hover{
+    background: rgb(49, 48, 48);
+}
+.about{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 80px;
+  position: absolute;
+  top: 14.5px;
+left: 451.5px;
+cursor: pointer;
+}
+.about:hover{
+    background: rgb(49, 48, 48);
+}
+.globel{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 65px;
+  position: absolute;
+  top: 14.5px;
+left: 1099px;
+cursor: pointer;
+}
+.globel:hover{
+    background: rgb(49, 48, 48);
+}
+.globel-h{
+    width: 16px;
+    height: 16px;
+    float: left;
+  padding-top: 1px;
+  padding-left: 4px;
+}
+.help{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 65px;
+  position: absolute;
+  top: 14.5px;
+left: 1162px;
+cursor: pointer;
+}
+.help:hover{
+    background: rgb(49, 48, 48);
+}
+.log-in{
+    color:white;
+   background: none;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 65px;
+  position: absolute;
+  top: 14.5px;
+left: 1225px;
+cursor: pointer;
+}
+.log-in:hover{
+    background: rgb(49, 48, 48);
+}
+.sign-up{
+    color:black;
+   background: white;
+   border: none;
+   font-size: 14px;
+   border-radius: 30px;
+   height: 35px;
+   width: 73px;
+  position: absolute;
+  top: 14.5px;
+left: 1294px;
+cursor: pointer;
+}
+.caption{
+font-family:Helvetica;
+font-size: 50px;
+font-weight: 700;
+position: absolute;
+color: white;
+top: 245px;
+left: 154px;
+}
+.caption-u{
+    font-family:Helvetica;
+font-size: 66px;
+font-weight: 500;
+position: absolute;
+color: white;
+top: 285px;
+left: 154px;
+}
+.ber{
+    font-family:Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    top: 309px;
+    left: 188px;
+    }
+    .request{
+        font-family:Helvetica;
+        font-size: 16px;
+        font-weight: lighter;
+        position: absolute;
+        color: white;
+        top: 425px;
+        left: 152px;
+        }
+        .location{
+            font-family:Helvetica;
+            font-size: 16px;
+            font-weight: lighter;
+            position: absolute;
+            color:black;
+            top: 491px;
+            left: 154px;
+            cursor: text;
+            width: 391px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            text-indent: 38px;
+        }
+        .location::placeholder{
+        color: rgb(113, 110, 110);
+        }
+            .dot{
+                font-family:Helvetica;
+                font-size: 5px;
+                font-weight: 700;
+                position: absolute;
+                top: 506px;
+                left: 169.1px;
+                }
+                .line{
+                font-family:Helvetica;
+                font-size: 5px;
+                font-weight: 700;
+                position: absolute;
+                top: 530px;
+                left: 152.2px;
+                color: white;
+                width: 38px;
+               transform: rotate(-90deg);
+              }
+              .destination{
+                font-family:Helvetica;
+            font-size: 16px;
+            font-weight: lighter;
+            position: absolute;
+            color: black;
+            top: 556px;
+            left: 154px;
+            cursor: text;
+            width: 391px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            text-indent: 38px;
+            }
+              .destination::placeholder{
+            color: rgb(113, 110, 110);
+            }
+            .box{
+                font-family:Helvetica;
+                font-size: 5px;
+                font-weight: 700;
+                position: absolute;
+                top: 571px;
+                left: 169.1px;
+            }
+            .arrow{
+                position: absolute;
+                color: white;
+                top: 499px;
+                left: 507px;
+                cursor: text;
+                width: 32px;
+                height: 32px;
+               }
+               .see-prices{
+            top: 630px;
+            left: 154px;
+            cursor: pointer;
+            width: 125px;
+            height: 46px;
+            border-radius: 8px;
+            border: none;
+            background: white;
+            position: absolute;
+            font-size: 16px;
+            font-weight:500;
+               }
+               .h-img{
+                display: block;
+                width: 558px;
+                height: 698px;
+                height: 100%;
+                float: right;
+                padding-right: 152px;
+                padding-top: 71px;
+               }
+            .content{
+                width: 100%;
+                height: 2035px;
+            }
+            .c-1-img{
+                width: 558px;
+                height: 558px;
+                float: left;
+                padding-top: 62px;
+                padding-left: 151px;
+            }
+            .caption-r-1{
+            font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 52px;
+            font-weight: 650;
+            line-height: 64px;
+            float: right;
+            padding-right: 217px;
+            padding-top: 116px;
+        }
+        .para-r-1{
+        letter-spacing: 0;
+         font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+         font-size: 16px;
+         font-weight: normal;
+         float: right;
+         top: 1254px;
+         left: 844px;
+         line-height: 24px;
+         position: absolute;
+         }
+         .get-started-1{
+            cursor: pointer;
+            width: 136px;
+            height: 48px;
+            border-radius: 8px;
+            border: none;
+            background:black;
+            position: absolute;
+            font-size: 16px;
+            font-weight:500;
+            top: 1372px;
+            left: 844px;
+            color: white;
+        }
+         .already-sign{
+            font-size: 16px;
+            top: 1388px;
+            left: 1004px;
+            color:black;
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            cursor: pointer;
+         }
+         .line-sign{
+          position: absolute;
+          top: 1402.5px;
+          left: 1004.5px;
+          width:235px;
+          color: rgb(252, 250, 250);
+          cursor: pointer;
+         }
+         .caption-r-2{
+            font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 52px;
+            font-weight: 650;
+            line-height: 64px;
+            top: 1706px;
+            left: 151px;
+           position: absolute;
+        }
+        .para-l-1{
+            letter-spacing: 0;
+             font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+             font-size: 16px;
+             font-weight: normal;
+             top: 1952px;
+             left: 151px;
+             line-height: 24px;
+             position: absolute;
+             }
+             .get-started-2{
+                cursor: pointer;
+                width: 136px;
+                height: 48px;
+                border-radius: 8px;
+                border: none;
+                background:black;
+                position: absolute;
+                font-size: 16px;
+                font-weight:500;
+                top: 2046px;
+                left: 151px;
+                color: white;
+            }
+            .check{
+                font-size: 16px;
+                top: 2061px;
+                left: 310px;
+                color:black;
+                position: absolute;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                cursor: pointer;
+                letter-spacing:0.4px;
+             }
+             .line-check{
+                position: absolute;
+                width:175px;
+                color: rgb(252, 250, 250);
+                cursor: pointer;
+                top: 2077px;
+                left: 310px;
+               }
+               .c-2-img{
+                width: 558px;
+                height: 558px;
+                float: right;
+                padding-top: 370px;
+                padding-right: 152px;
+            }
+            .c-3-img{
+                width: 558px;
+                height: 558px;
+                float: left;
+                padding-top: 813.5px;
+                padding-left: 151px;
+            }
+            .caption-r-3{
+                font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 36px;
+                font-weight: 650;
+                line-height: 44px;
+                float: right;
+                padding-right: 168px;
+                padding-top: 260px;
+            }
+            .para-r-3{
+                letter-spacing: 0;
+                 font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                 font-size: 16px;
+                 font-weight: normal;
+                 float: right;
+                top: 2580px;
+                left: 845px;
+                 line-height: 24px;
+                 position: absolute;
+                }
+                 .get-started-3{
+                    cursor: pointer;
+                    width: 136px;
+                    height: 48px;
+                    border-radius: 8px;
+                    border: none;
+                    background:black;
+                    position: absolute;
+                    font-size: 16px;
+                    font-weight:500;
+                    top: 2676px;
+                left: 844px;
+                    color: white;
+                }
+                .app-section{
+                    width: 100%;
+                    height: 375px;
+                    background-color: #f6f6f6;
+                }
+                .app-caption{
+                font-family: UberMove, UberMoveText, system-ui, 
+                "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 44px;
+                padding-top: 61px;
+                padding-left: 149px;
+                }
+                .app-box-1{
+                    padding-left: 149px;
+                    padding-top: 10px;
+                }
+                .app-1{
+                    width: 550px;
+                    height: 180px;
+                    background:white;
+                    float: left;
+                }
+                .app-1-img{
+                    width: 150px;
+                    height: 150px;
+                    padding-top: 15px;
+                    padding-left: 15px;
+                }
+                .app-1-text{
+                    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    text-decoration: none;
+                    color: black;
+                    position: absolute;
+                    top: 3130px;
+                    left: 340px;
+                }
+                .scan-1{
+                position: absolute;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                top: 3170px;
+                left: 340px;
+                }
+               .app-arrow-1{
+                position: absolute;
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                top: 3140px;
+                left: 655px;
+                }
+                .app-box-2{
+                    padding-right: 170px;
+                    padding-top: 0px;
+                }
+                .app-2{
+                    width: 550px;
+                    height: 180px;
+                    background:white;
+                    float: right;
+                }
+                .app-2-img{
+                    width: 150px;
+                    height: 150px;
+                    padding-top: 15px;
+                    padding-left: 15px;
+                }
+                .app-2-text{
+                    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    text-decoration: none;
+                    color: black;
+                    position: absolute;
+                    top: 3130px;
+                    left: 920px;
+                }
+                .scan-2{
+                position: absolute;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                top: 3170px;
+                left: 920px;
+                }
+               .app-arrow-2{
+                position: absolute;
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                top: 3140px;
+                left: 1240px;
+                }
+                .footer{
+                    width: 100%;
+                    height: 975px;
+                    background : black;
+                }
+                .f-section-1{
+                padding-top: 85px;
+                padding-left: 127.5px;
+                }
+               .uber-f{
+                height: 48px;
+                padding-top: 5px;
+                cursor: pointer;
+               }
+               .visit{
+                color:white;
+                font-size: 16px;
+                font-weight: 400;
+                left:150px;
+                top: 3480px;
+                position: absolute;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                cursor: pointer;
+               }
+               .f-list-1{
+                float: left;
+                padding-left: 150px;
+                padding-top: 120px;
+               }
+               .f-list-2{
+                float: left;
+                padding-left: 200px;
+                padding-top: 120px;
+            }
+            .f-list-3{
+                float: left;
+                padding-left: 200px;
+                padding-top: 120px;
+            }
+            .f-list-4{
+                float: left;
+                padding-left: 160px;
+                padding-top: 120px;
+            }
+               .list-heading{
+                color: #FFFFFF;
+               font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+               font-weight: 500;
+               font-size: 18px;
+               line-height: 24px;
+            }
+            .list-data{
+                font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: white;
+               text-decoration: none;
+                cursor: pointer;
+            }
+            .list-data:hover{
+                color: gray;
+            }
+            .social-button{
+                width: 50px;
+                height: 50px;
+                border: none;
+                background: none;
+                border-radius: 10px;
+            }
+            .social-button:hover{
+                background: rgb(49, 48, 48);
+            }
+            .facebook{
+                position: absolute;
+               left: 131.8px;
+               top: 4013px;
+            }
+            .social-facebook{
+                width: 15px;
+                height: 15px;
+                cursor: pointer;
+            }
+            .twitter{
+            position: absolute;
+               left: 250px;
+               top: 4013px;
+        }
+        .social-twitter{
+            width: 15px;
+            height: 12px;
+            cursor: pointer;
+        }
+        .youtube{
+            position: absolute;
+            left: 368.2px;
+            top: 4013px;
+        }
+        .social-youtube{
+            width: 15px;
+            height: 12px;
+            cursor: pointer;
+        }
+        .linkedin{
+            position: absolute;
+            left: 486.4px;
+            top: 4013px;
+        }
+        .social-linkedin{
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+        }
+        .insta{
+            position: absolute;
+            left: 604.6px;
+            top: 4013px;
+        }
+        .social-insta{
+            width: 30px;
+            height: 24px;
+            cursor: pointer;
+            padding-left: 4px;
+        }
+        .lan-bt{
+            width: 95px;
+            height: 35px;
+            background: none;
+            outline: none;
+            position: absolute;
+            left: 1120px;
+            top: 4013px;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .lan-bt:hover{
+            background-color: rgb(49, 48, 48);
+            overflow: hidden;
+        }
+        .globel-f{
+            width: 15px;
+            height: 15px;
+            float: left;
+          padding-top: 2px;
+        }
+        .loc-bt{
+            width: 80px;
+            height: 35px;
+            background: none;
+            outline: none;
+            position: absolute;
+            left: 1210px;
+            top: 4013px;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .loc-bt:hover{
+            background-color: rgb(49, 48, 48);
+            overflow: hidden;
+        }
+        .kochi-f{
+            width: 15px;
+            height: 15px;
+            float: left;
+            padding-top: 2px;
+        }
+        .playstore{
+            width: 170px;
+            height: 37px;
+            position: absolute;
+               left: 131.8px;
+               top: 4110px;
+            }
+            .appstore{
+                width: 170px;
+                height: 42px;
+                position: absolute;
+                   left: 270px;
+                   top: 4108px;
+            }
+            .copyright{
+                color: #AFAFAF;
+                font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: normal;
+                font-size: 12px;
+                float: left;
+                padding-right: 525px;
+                padding-left: 73.5px;
+                padding-top: 111px
+            }
+            .policy{
+                position: absolute;
+                left: 1090px;
+               top: 4203px;
+            }
+            .privacy{
+                color: #AFAFAF;
+                font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: normal;
+                font-size: 12px;
+                text-decoration: none;
+            }
+            .privacy:hover{
+                color: gray;
+            }
+            .policy-text{
+                color: #AFAFAF;
+                font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: normal;
+                font-size: 12px;
+                text-decoration: none;
+                padding-left: 30px;
+            }
+            .policy-text:hover{
+                color: gray;
+            }
+            .up-img{
+                height: 52px;
+                width: 55px;
+                position: absolute;
+                top: 4231px;
+                right: 24px;
+            }
+            .up-arrow{
+                    padding-top: 650px;
+                    padding-left: 1280px;
+                }
+            .up-btn{
+                height: 50px;
+                width: 150px;
+               border-radius: 30px;
+               outline: none;
+               text-align: left;
+               text-decoration: none;
+               border: none;
+               background: none;
+               font-size: 16px;
+               }
+            .up-btn:hover{
+                background: #f9f8f8;
+                text-decoration: none;
+            }
+            .last-line{
+                color: white;
+                position: absolute;
+             top: 4290px;
+            }
+            
+        
+        
+        
+
+            
+           
+           
+               
+         
+         
+         
